@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    background: #104049;
+    background: linear-gradient(180deg,#104049 0,#054185);
+        background-color: rgba(0, 0, 0, 0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#104049",endColorstr="#054185",GradientType=0)
+;
+    background: #6A3467;
+color:white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color:white;
+}
+
+.triton-bg {
+background: #17337c;
+background: -moz-linear-gradient(top, #17337c 0%, #17337c 100%);
+background: -webkit-linear-gradient(top, #17337c 0%,#17337c 100%);
+background: linear-gradient(to bottom, #17337c 0%,#17337c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17337c', endColorstr='#17337c',GradientType=0 );
+text-align:center;
+padding-top:4em;
+}
+
+
+a {
+    color: #81c3fc;
+}
+a:hover{
+color:white;
+}

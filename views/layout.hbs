@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+  <body>
+<div class="triton-bg">
+
+    <!-- Fixed navbar -->
+<h2><img src="logo.png" style="
+    height: 22px;
+    display: inline;
+" /> Triton</h2>
+ <span class="label label-danger">Beta</span>
+
+    <div style="margin-top:2em;" class="container">
+        {{{body}}}
+    </div> <!-- /container -->
+<div style="text:align:center;margin-top:80px;padding:40px;background:#6A3467">
+
+<h3>Try out Triton</h2>
+<a target="_blank" href="https://triton.fhict.nl">
+<img src="demo.png" style="max-height:400px;max-width:100%; "/>
+</a><br />
+
+<a target="_blank" href="https://triton.fhict.nl" class="btn btn-lg" style="background:#643261;color:white;">triton.fhict.nl</a>
+
+</div>
+
+
+
+
+
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+socket.on('reload', function (msg) {
+
+window.location.reload()
+   } )
+
+</script>
+
+<script src="/javascripts/jquery-3.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
